@@ -13,6 +13,7 @@ public class SearchTerms {
 
         System.out.println("Insert a term to search through text: ");
         String userTerm = input.nextLine();
+        input.close();
 
         if (aliceSentence.toLowerCase().contains(userTerm.toLowerCase())){
             System.out.println("true");

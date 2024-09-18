@@ -11,6 +11,7 @@ public class MilesPerGallon {
 
         System.out.println("How many gallons of gas have you used: ");
         float gallonsOfGas = input.nextFloat();
+        input.close();
 
         float milesPerGallon = miles/gallonsOfGas;
         System.out.println("MPG: " + milesPerGallon);
