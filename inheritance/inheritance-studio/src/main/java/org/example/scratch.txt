@@ -1,0 +1,31 @@
+Quiz
+- ArrayList of questions
+
+Question: abstract
+
+-String question
+-ArrayList AnswersOptions
+-point counts
++ checkAnswers() abstract
++ addPoints() abstract
+
+
+Checkbox (Question)
+- ArrayList<int> correctAnswers  (A,B,C)
+- ArrayList<int> userAnswers (A,B)
++ checkAnswers() boolean
++ addPoints() int
+
+MultipleChoice (Question)
+- int correctAnswer
+- int userAnswer
++ checkAnswers() boolean
++ addPoints() int
+
+TrueOrFalse (Question)
+- boolean correctAnswer
+- boolean userAnswer
++ TrueFalse( question: String, correctAnswer: boolean)
++ showQuestion() void
++ checkAnswer() boolean
++ getAnswer() void
