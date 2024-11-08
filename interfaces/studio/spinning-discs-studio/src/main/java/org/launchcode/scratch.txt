@@ -1,0 +1,17 @@
+OpticalDisk - interface
+- capacity
+
+BaseDisc - abstract class
+- type of disc
+- spinthedisk
+
+CD - child class
+- storage type
+
+DVD - child class
+- storage type
+
+What we print:
+1. How fast the CDs and DVDs spin (RPM)
+2. How much space is on each example CD/DVD
+3. A fun fact about each (laser type in KJs example)
